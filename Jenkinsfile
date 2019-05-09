@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Hello World"'
+                sh 'echo "Hellraiser 22: Electric bogaloogaloo"'
                 sh '''
-                    echo "Multiline shell steps works too"
+                    echo "Multiline hell heps works too"
                     ls -lah
                 '''
             }
